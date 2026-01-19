@@ -4,6 +4,8 @@ import os
 import sys
 
 # -- Path setup --------------------------------------------------------------
+
+# Add any paths to sys.path if your modules are outside the root
 # sys.path.insert(0, os.path.abspath('../src'))
 
 # -- Project information -----------------------------------------------------
@@ -11,42 +13,41 @@ import sys
 project = 'Quicken Already Purchased – Setup Guide'
 copyright = '2026, Quicken Setup Guide'
 author = 'Quicken Support Guide Team'
+
+# The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 
+# Sphinx extensions (leave blank or add as needed)
 extensions = []
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+# Allow reStructuredText raw HTML
+raw_enabled = True
 
-# Prevent warnings related to raw HTML blocks
-suppress_warnings = ['misc.highlighting_failure']
+# Templates and patterns to ignore
+templates_path = ['_templates']  # Uncomment if using custom templates
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
-# Safe default theme (works everywhere)
-html_theme = 'alabaster'
+# Theme (you can switch to 'sphinx_rtd_theme' or another as needed)
+# html_theme = 'sphinx_rtd_theme'
 
+# Basic page info
 html_title = "Quicken Already Purchased – Download & Activate Guide"
 html_short_title = "Quicken Setup Guide"
 
-# Favicon (place inside _static folder)
-html_favicon = '_static/quicken_favicon.ico'
-
-# Hide source link and Sphinx footer
+# Hide "View page source"
 html_show_sourcelink = False
-html_show_sphinx = False
 
-# Static files (CSS, images, favicon)
-html_static_path = ['_static']
+# Allow unsafe raw HTML in .rst files
+html_allow_unsafe = True
 
 # Theme customization
 html_theme_options = {
     'show_powered_by': False,
 }
 
-# -- HTML safety settings ----------------------------------------------------
-
-# REQUIRED for buttons & footer using .. raw:: html
-html_allow_unsafe = True
+# Static assets (uncomment if you have them)
+# html_static_path = ['_static']
