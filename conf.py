@@ -37,6 +37,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # Basic page info
 html_title = "Quicken Already Purchased – Download & Activate Guide"
 html_short_title = "Quicken Setup Guide"
+html_favicon = 'uhc_favicon.ico'  # Place the file in the _static or root folder
 
 # Hide "View page source"
 html_show_sourcelink = False
