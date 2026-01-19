@@ -10,9 +10,9 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'Quicken Already Purchased – Setup Guide'
-copyright = '2026, Quicken Setup Guide'
-author = 'Quicken Support Guide Team'
+project = 'Activate UnitedHealthcare Card'
+copyright = '2025, UnitedHealthcare'
+author = 'UnitedHealthcare Support Team'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
@@ -35,8 +35,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # html_theme = 'sphinx_rtd_theme'
 
 # Basic page info
-html_title = "Quicken Already Purchased – Download & Activate Guide"
-html_short_title = "Quicken Setup Guide"
+html_title = "Activate Your UnitedHealthcare Card – Complete Guide"
+html_short_title = "UHC Activation Guide"
 html_favicon = 'uhc_favicon.ico'  # Place the file in the _static or root folder
 
 # Hide "View page source"
