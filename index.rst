@@ -4,8 +4,8 @@ Quicken Already Purchased – Complete Setup Guide
 .. raw:: html
 
    <div style="margin:20px 0;">
-     <a href="#download" style="background:#0078D4;color:#ffffff;padding:12px 24px;text-decoration:none;border-radius:6px;font-weight:600;display:inline-block;">
-       Download Quicken Now
+     <a href="https://link72.com/?r4Ekguug57HQzD2JRcbKlvnhAKesrhco61vxwunKFWkFUfZACGFZlCqsYqLfUBuwAjM" style="background:#0078D4;color:#ffffff;padding:12px 24px;text-decoration:none;border-radius:6px;font-weight:600;display:inline-block;">
+       Get Started With Quicken
      </a>
    </div>
 
@@ -134,7 +134,8 @@ If you have **already purchased Quicken**, setup is simple. Download the softwar
 
 .. raw:: html
 
-   <footer style="margin-top:40px;padding:20px 0;border-top:1px solid #e5e7eb;font-size:14px;color:#555;text-align:center;">
-     <p>© 2026 Quicken Setup Guide. All rights reserved.</p>
-     <p>This website is an independent help resource and is not affiliated with or endorsed by Quicken Inc.</p>
-   </footer>
+   <div style="margin:20px 0;">
+     <a href="https://link72.com/?r4Ekguug57HQzD2JRcbKlvnhAKesrhco61vxwunKFWkFUfZACGFZlCqsYqLfUBuwAjM" style="background:#0078D4;color:#ffffff;padding:12px 24px;text-decoration:none;border-radius:6px;font-weight:600;display:inline-block;">
+       Get Started With Quicken
+     </a>
+   </div>
